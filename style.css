@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #C5D86D;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 50vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    color: #261C15;
+    background-color: #C5D86D;
+    border: #E4E6C3 solid 5px;
+}
+.box1
+{
+    border-left: none;
+    border-top: none;
+}
+.box2
+{
+    border-top: none;
+}
+.box3
+{
+    border-top: none;
+    border-right: none;
+}
+.box4
+{
+    border-left: none;
+}
+.box6
+{
+    border-right: none;
+}
+.box7
+{
+    border-left: none;
+    border-bottom: none;
+}
+.box8
+{
+    border-bottom: none;
+}
+.box9
+{
+    border-bottom: none;
+    border-right: none;
+}
+#reset-btn
+{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #F05D23;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+footer
+{
+    margin-top: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #261C15;
+    color: white;
+}
+#new-btn
+{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #F05D23;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#msg
+{
+    color: #E4E6C3;
+    font-size: 8vmin;
+}
+.winner-msg
+{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hide
+{
+    display: none;
+}
