@@ -7,6 +7,7 @@
 body{
     background-color: #C5D86D;
     text-align: center;
+    height: 100vh;
 }
 
 .container{
@@ -84,6 +85,10 @@ footer
     padding-bottom: 10px;
     background-color: #261C15;
     color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #new-btn
 {
